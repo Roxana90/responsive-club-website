@@ -1,0 +1,155 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgb(2, 86, 86);
+}
+
+nav {
+    background-color: rgb(2, 86, 86);
+    height: 3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.mission {
+    background-image: url(../images/background1.jpg);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0.8rem 0.8rem  0.4rem black; 
+}
+
+.mission-banner {
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 2rem;
+}
+
+.reading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.importance {
+    margin: auto;
+}
+
+.reading img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    box-shadow: 0.8rem 0.8rem  0.4rem; 
+}
+
+.reading button {
+    transition-duration: 0.4s;
+    width: 15%;
+    background-color: rgb(37, 106, 106);
+    box-shadow: 0.5rem 0.5rem  0.4rem black; 
+    
+}
+
+
+
+.reading button:hover {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+.activity-title, .upcoming-activities-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.activities, .upcoming-activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.activity, .upcoming-activity {
+    padding: 1rem;
+    flex-basis: 18rem;
+    text-align: center;
+}
+
+.activity img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    height: auto;
+    box-shadow: 0.8rem 0.8rem  0.4rem; 
+}
+
+.upcoming-activity img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    height: auto;
+    box-shadow: 0.8rem 0.8rem  0.4rem; 
+}
+
+.testimonial {
+    text-align: center;
+    color: white;
+    background-image: url(../images/library1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 1rem;
+    box-shadow: 0.8rem 0.8rem  0.4rem black; 
+}
+
+footer {
+    text-align: center;
+    border-top: 0.1rem solid black;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 640px) {
+    .mission {
+        height: 23rem;
+    }
+
+    .importance {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .importance li {
+        text-align: left;
+        margin-left: 3rem;
+    }
+
+    .reading img {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+
+}
+
+
